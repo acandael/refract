@@ -1,0 +1,11 @@
+footer {
+  background-color: $action-color;
+  height: 80px;
+  padding-top: em(24);
+  padding-left: 22%;
+  line-height: 1.5em;
+
+  p {
+    color: white;
+  }
+}

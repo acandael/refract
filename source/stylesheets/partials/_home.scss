@@ -1,0 +1,30 @@
+section.home {
+  @include outer_container;
+}
+
+.hero {
+
+  @include span-columns(12);
+  margin-top: 54px;
+  margin-bottom: 54px;
+
+  .bodytext {
+    @include span-columns(4 of 12);
+  }
+
+  aside {
+    @include span-columns(8 of 12);
+    @include omega;
+  }
+}
+
+.tagline {
+  text-align: center;
+  font-size: em(24);
+  margin-bottom: 24px;
+}
+
+
+
+
+
