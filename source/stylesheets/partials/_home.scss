@@ -6,7 +6,6 @@ section.home {
 
   @include span-columns(12);
   margin-top: 54px;
-  margin-bottom: 54px;
 
   .bodytext {
     @include span-columns(4 of 12);
@@ -21,9 +20,30 @@ section.home {
 .tagline {
   text-align: center;
   font-size: em(24);
-  margin-bottom: 24px;
+  margin-bottom: 54px;
+  color: $brown;
 }
 
+p i.fa-download {
+  font-size: 1em;
+  margin-right: .5em;
+}
+
+p.title {
+  font-weight: 600;
+}
+
+p.more {
+  a { color: $green; }
+  text-align: right;
+  font-weight: 600;
+}
+
+time {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: 400;
+}
 
 
 

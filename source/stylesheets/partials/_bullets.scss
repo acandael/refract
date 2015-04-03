@@ -21,54 +21,39 @@
     line-height: $base-line-height;
   }
 
-  img {
-    max-width: 100%;
-  }
   //////////////////////////////////////////////////////////////////////////////////
 
   $icon-bullet-size: 3.5em;
   i {
-    font-size: 1.7em;
-    color: white;
+    font-size: 2em;
+    color: lighten($green, 10%);
   }
 
 
   @include display(flex);
   @include flex-wrap(wrap);
   margin-bottom: $base-line-height;
-  margin: 1em;
+  margin: 1em 0px;
   overflow: auto;
 
   .bullet {
     @include flex-basis(20em);
     @include flex-grow(1);
+    padding-right: 16px;
+    margin-right: 24px;
   }
 
   .bullet-icon {
-    background: $base-accent-color;
-    border-radius: 50%;
     float: left;
-    height: $icon-bullet-size;
-    padding: $icon-bullet-size / 4;
-    width: $icon-bullet-size;
-  }
-
-  .bullet-icon-1 {
-    background: $base-accent-color;
-  }
-
-  .bullet-icon-2 {
-    background: adjust-hue($base-accent-color, -50%);
-  }
-
-  .bullet-icon-3 {
-    background: adjust-hue($base-accent-color, -140%);
+    padding-left: 1.8em;
+    margin-right: 1em;
+    padding-top: .4em;
   }
 
   .bullet-content {
-    margin-left: $icon-bullet-size * 1.4;
     margin-bottom: 2em;
   }
+
 
   h2 {
     border-bottom: 1px solid transparentize($base-font-color, 0.8);
