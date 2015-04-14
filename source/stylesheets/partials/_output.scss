@@ -1,0 +1,22 @@
+.wrapper {
+  padding-top: em(36);
+}
+section.output {
+  @include span-columns(8);
+  padding-top: em(36);
+
+  i {
+    margin-right: em(16);
+    color: $green;
+  }
+
+  a {
+    &:hover{
+      color: $green;
+    }
+  }
+
+  li {
+    margin-bottom: em(24);
+  }
+}

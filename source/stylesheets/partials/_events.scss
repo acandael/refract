@@ -23,6 +23,11 @@ div.wrapper {
     border-bottom: 1px solid gainsboro;
     h2 {
       color: $action-color;
+      a {
+        &:hover {
+          color: $green;
+        }
+      }
     }
     aside {
       float: right;
