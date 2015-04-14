@@ -1,5 +1,4 @@
 .bullets {
-///////////////////////////////////////////////////////////////////////////////////
   $base-line-height: 1.5em !default;
   $base-accent-color: $action-color;
   $base-link-color: $base-accent-color !default;
@@ -21,12 +20,11 @@
     line-height: $base-line-height;
   }
 
-  //////////////////////////////////////////////////////////////////////////////////
 
   $icon-bullet-size: 3.5em;
   i {
     font-size: 2em;
-    color: lighten($green, 10%);
+    color: lighten($action-color, 10%);
   }
 
 
@@ -40,7 +38,7 @@
     @include flex-basis(20em);
     @include flex-grow(1);
     padding-right: 16px;
-    margin-right: 24px;
+    margin-right: em(36);
   }
 
   .bullet-icon {
@@ -52,6 +50,9 @@
 
   .bullet-content {
     margin-bottom: 2em;
+    a {
+      &:hover { color: $green; }
+    }
   }
 
 

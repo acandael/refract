@@ -1,0 +1,9 @@
+article.about {
+  @include outer-container;
+  margin-top: em(54);
+  section.content {
+    @include span-columns(6);
+  }
+}
+
+

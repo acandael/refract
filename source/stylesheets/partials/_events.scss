@@ -1,0 +1,32 @@
+div.wrapper {
+  @include outer-container;
+  article.intro {
+    @include span-columns(8);
+    @include clearfix;
+    padding-top: em(24);
+
+    p {
+      box-shadow: 0 0 5px $base-font-color;
+      padding: em(16);
+    }
+  }
+
+  section.events {
+    @include span-columns(8);
+    margin-top: em(36);
+  }
+
+  article.event {
+    @include clearfix;
+    margin-bottom: em(24);
+    padding-bottom: em(16);
+    border-bottom: 1px solid gainsboro;
+    h2 {
+      color: $action-color;
+    }
+    aside {
+      float: right;
+    } 
+  }
+}
+
