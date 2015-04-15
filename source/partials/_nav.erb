@@ -1,16 +1,16 @@
 <header class="navigation" role="banner">
   <div class="navigation-wrapper">
-    <a href="javascript:void(0)" class="logo">
+    <a href="/" class="logo">
       Refract.<span class="action">eu</span>
     </a>
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">Menu</a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        <li class="nav-link"><a href="/about.html">ABOUT REFRACT</a></li>
+        <li class="nav-link"><%= link_to "ABOUT REFRACT", "about.html" %></li>
         <li class="nav-link"><a href="javascript:void(0)">MEMBERS</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">EVENTS</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">OUTPUT</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">CONTACT</a></li>
+        <li class="nav-link"><%= link_to "EVENTS", "events.html" %></li>
+        <li class="nav-link"><%= link_to "OUTPUT", "output.html" %></li>
+        <li class="nav-link"><%= link_to "CONTACT", "contact.html" %></li>
       </ul>
     </nav>
   </div>

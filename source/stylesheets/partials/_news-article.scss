@@ -1,0 +1,21 @@
+article.newsarticle {
+  @include span-columns(12);
+  aside {
+    @include span-columns(4 of 12);
+    float: right;
+  }
+  p.date { font-style: italic; font-size: .9em; }
+  .content {
+    @include span-columns(8 of 12);
+    float: left;
+  }
+  section.practical {
+    margin: em(24) auto;
+    font-size: .9em;
+    i {
+      margin-right: em(16);
+      color: $green;
+    }
+    a:hover { color: $green; }
+  }
+}
