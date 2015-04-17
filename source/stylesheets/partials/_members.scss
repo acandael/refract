@@ -1,0 +1,42 @@
+.members {
+  margin-left: em(20);
+  margin-right: em(20);
+  @include clearfix;
+
+  @include media($large-screen) {
+    @include outer-container;
+  }
+
+  .member {
+    text-align: center;
+
+    @include media($portrait-screen) {
+      @include span-columns (4 of 8);
+      @include omega(2n);
+    }
+
+    @include media($medium-screen) {
+      @include span-columns (3 of 12);
+      @include omega(4n);
+    }
+
+
+    background-color: $white;
+    padding: em(10);
+    box-shadow: 0 1px 4px 1px #b4b6a9,2px 2px 1px 0 #fff inset;
+    margin-bottom: em(20);
+
+    h2 {
+      font-size: 21px;
+      border-bottom: 1px solid #cfd1c6;
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+    }
+
+    p {
+      font-size: $base-font-size;
+      text-align: left;
+    }
+  }
+}
