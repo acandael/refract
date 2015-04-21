@@ -16,7 +16,6 @@
   }
 
   p {
-    color: $base-font-color;
     line-height: $base-line-height;
   }
 
@@ -50,9 +49,6 @@
 
   .bullet-content {
     margin-bottom: 2em;
-    a {
-      &:hover { color: $green; }
-    }
   }
 
 
