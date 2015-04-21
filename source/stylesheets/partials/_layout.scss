@@ -24,3 +24,16 @@
 h1 {
   font-size: $base-font-size * 2.25;
 }
+
+
+
+i {
+  color: $green;
+  &.left {
+    margin-right: em(8);
+  }
+
+  &.right {
+    margin-left: em(8);
+  }
+}

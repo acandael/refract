@@ -4,11 +4,6 @@ div.wrapper {
     @include span-columns(8);
     @include clearfix;
     padding-top: em(24);
-
-    p {
-      box-shadow: 0 0 5px $base-font-color;
-      padding: em(16);
-    }
   }
 
   section.events {

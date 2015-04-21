@@ -14,20 +14,10 @@
 
     section.practical {
       margin-bottom: em(24);
-      i {
-        margin-right: em(16);
-        color: $green;
-      }
     }
 
     section.content {
       @include span-columns(6);
-    }
-
-    a {
-      &:hover {
-      color: $green;
-      }
     }
   }
   
