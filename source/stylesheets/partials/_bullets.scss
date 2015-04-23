@@ -41,9 +41,12 @@
   }
 
   .bullet-icon {
-    float: left;
-    padding-left: 1.8em;
-    margin-right: 1em;
+    text-align: center;
+    @include media($medium-screen) {
+      float: left;
+      padding-left: 1.8em;
+      margin-right: 1em;
+    }
     padding-top: .4em;
   }
 
@@ -54,10 +57,13 @@
 
   h2 {
     border-bottom: 1px solid transparentize($base-font-color, 0.8);
-    display: inline-block;
+    @include media($medium-screen) {
+      display: inline-block;
+    }
     font-size: $icon-bullet-size / 2.5;
     margin-bottom: $icon-bullet-size / 6;
     padding-top: $icon-bullet-size / 7;
+    text-align: center;
   }
 }
 
