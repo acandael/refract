@@ -52,10 +52,6 @@
 
   .bullet-content {
     margin-bottom: 2em;
-    text-align: center;
-    @include media($medium-screen) {
-      text-align: left;
-    }
   }
 
 
