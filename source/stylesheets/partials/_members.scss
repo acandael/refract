@@ -3,6 +3,17 @@ p.intro {
   padding: em(24);
   margin-bottom: em(36);
 }
+
+.wrapper {
+  padding: 1em;
+  margin-bottom: em(24);
+  padding-bottom: em(24);
+  @include media($medium-screen){
+    margin-bottom: 0;
+    padding: 0;
+  }
+}
+
 .members {
   margin-left: em(20);
   margin-right: em(20);
