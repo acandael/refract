@@ -13,7 +13,9 @@
    display: block;
    float: right;
    margin: 0;
-   padding-top: 0.5em;
+   padding-top: 1em;
+   padding-right: 1em;
+   font-weight: 600;
 
    @include media ($large-screen) {
      display: none;
@@ -32,6 +34,7 @@
    font-size: em(36);
    font-family: 'Merriweather', serif;
    font-weight: 800;
+   padding-left: .5em;
  }
 
  nav {
@@ -50,6 +53,7 @@
    margin: 0 auto;
    overflow: visible;
    padding: 0;
+   padding-right: 1em;
    width: 100%;
 
    @include media ($large-screen) {
