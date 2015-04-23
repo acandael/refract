@@ -2,14 +2,24 @@
   @include outer-container;
   article.event
   {
-    padding-top: em(36);
+    @include media($medium-screen){
+      padding-top: em(36);
+    }
     aside {
       float:right;
       @include span-columns(4);
     }
 
     header {
-      margin-top: em(24);
+      h1 { 
+        font-size: $base-font-size * 1; 
+        @include media($medium-screen){
+          font-size: $base-font-size * 2.25; 
+        }
+      }
+      @include media($medium-screen){
+        margin-top: em(24);
+      }
     }
 
     section.practical {
@@ -17,7 +27,9 @@
     }
 
     section.content {
-      @include span-columns(6);
+      @include media($medium-screen){
+        @include span-columns(6);
+      }
     }
   }
   
