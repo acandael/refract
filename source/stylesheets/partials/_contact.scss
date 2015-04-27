@@ -1,6 +1,9 @@
 article.contact {
   aside {
-    float: right;
+    @include media($medium-screen) {
+      float: right;
+    }
+    margin-bottom: em(24);
   }
 
   section.data {
