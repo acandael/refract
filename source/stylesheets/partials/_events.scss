@@ -29,11 +29,6 @@ div.wrapper {
     }
     h2 {
       color: $action-color;
-      a {
-        &:hover {
-          color: $green;
-        }
-      }
     }
     aside {
       display: none;

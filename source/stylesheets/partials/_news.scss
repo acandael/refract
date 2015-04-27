@@ -7,6 +7,9 @@
       margin-bottom: em(36);
       padding-bottom: em(16);
       border-bottom: 1px solid gainsboro;
+      &:last-child {
+        border-bottom: none;
+      }
     }
     .date {
       font-style: italic;
@@ -14,21 +17,23 @@
       
     }
     aside {
-      @include span-columns(4 of 12);
-      float: right;
+      display: none;
+      @include media($medium-screen){
+        @include span-columns(4 of 12);
+        display: block;
+        float: right;
+      }
     }
 
     .content {
-      @include span-columns(8 of 12);
-      float: left;
+      @include media($medium-screen){
+        @include span-columns(8 of 12);
+        float: left;
+      }
     }
     
     h2 {
       line-height: 1em;
-    }
-
-    a:hover {
-      color: $green;
     }
   }
 }

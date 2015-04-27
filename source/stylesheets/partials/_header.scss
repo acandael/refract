@@ -89,9 +89,6 @@
     @include media ($large-screen) {
       padding-right: 1em;
     }
-    &:hover {
-      color: $blue;
-    }
   }
 }
 
