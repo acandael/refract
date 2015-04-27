@@ -25,6 +25,10 @@ h1 {
   font-size: $base-font-size * 2.25;
 }
 
+h2 {
+  color: $action-color;
+}
+
 a {
   &:hover {
     color: $blue;
@@ -42,4 +46,10 @@ i {
   &.right {
     margin-left: em(8);
   }
+}
+
+.date {
+  font-style: italic;
+  font-size: .9em;
+  
 }
