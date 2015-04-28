@@ -1,8 +1,12 @@
 footer.footer {
   background-color: lighten($brown, 10%);
   height: 80px;
-  padding-top: em(24);
-  padding-left: 22%;
+  padding-top: em(10);
+  padding-left: em(24);
+  @include media($large-screen){
+    padding-left: 22%;
+    padding-top: em(24);
+  }
   line-height: 1.5em;
 
   p {

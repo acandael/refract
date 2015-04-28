@@ -2,7 +2,7 @@ article.about {
   @include outer-container;
   padding: 1em;
   margin-top: em(54);
-  @include media($medium-screen) {
+  @include media($large-screen) {
     padding: 0;
   }
   section.content {
