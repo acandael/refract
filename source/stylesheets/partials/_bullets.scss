@@ -34,6 +34,9 @@
   overflow: auto;
 
   .bullet {
+    @include media($portrait-screen){
+      @include fill-parent();
+    }
     @include media($medium-screen){
       @include flex-basis(15em);
     }
