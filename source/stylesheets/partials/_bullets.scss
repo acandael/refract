@@ -34,7 +34,12 @@
   overflow: auto;
 
   .bullet {
-    @include flex-basis(20em);
+    @include media($medium-screen){
+      @include flex-basis(15em);
+    }
+    @include media($large-screen){
+      @include flex-basis(20em);
+    }
     @include flex-grow(1);
     padding-right: 16px;
     margin-right: em(36);
@@ -42,7 +47,7 @@
 
   .bullet-icon {
     text-align: center;
-    @include media($medium-screen) {
+    @include media($large-screen) {
       float: left;
       padding-left: 1.8em;
       margin-right: 1em;
@@ -57,7 +62,7 @@
 
   h2 {
     border-bottom: 1px solid transparentize($base-font-color, 0.8);
-    @include media($medium-screen) {
+    @include media($large-screen) {
       display: inline-block;
     }
     font-size: $icon-bullet-size / 2.5;
