@@ -1,5 +1,5 @@
 section.home {
-  padding: 1em;
+  padding: em(24);
   padding-top: 1.5em;
   @include outer_container;
   @include media($large-screen){

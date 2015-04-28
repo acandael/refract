@@ -1,9 +1,9 @@
 article.researcher {
   @include outer-container;
   margin-bottom: em(24);
-  padding: 1em;
+  padding: em(24);
   padding-bottom: em(24);
-  @include media($medium-screen){
+  @include media($large-screen){
     margin-bottom: 0; 
     padding-top: em(54);
     padding-bottom: 0;

@@ -1,5 +1,5 @@
 div.wrapper {
-  padding: 1em;
+  padding: em(24);
   @include media($large-screen){
     @include outer-container;
     padding: 0;
