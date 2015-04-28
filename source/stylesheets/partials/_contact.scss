@@ -1,5 +1,8 @@
 article.contact {
   aside {
+    @include media($portrait-screen) {
+      float: right;
+    }
     @include media($medium-screen) {
       float: right;
     }
