@@ -1,13 +1,17 @@
-  #main {
-      min-height: 100%;
-        height: auto !important;
-          height: 100%;
-            margin: 0 auto -6em;
-          }
+#main {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -6em;
+}
 
-          html, body {
-              height: 100%;
-            }
+html, body {
+  height: 100%;
+}
+
+.wrapper{
+  margin-top: em(54);
+}
 
 .action {
   color: $yellow;

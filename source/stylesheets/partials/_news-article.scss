@@ -1,5 +1,6 @@
 article.newsarticle {
   @include span-columns(12);
+  padding-top: em(24);
   aside {
     @include span-columns(4 of 12);
     float: right;

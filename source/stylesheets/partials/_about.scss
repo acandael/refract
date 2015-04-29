@@ -1,10 +1,7 @@
 article.about {
   @include outer-container;
   padding: em(24);
-  margin-top: em(54);
-  @include media($large-screen) {
-    padding: 0;
-  }
+  padding-top: em(24);
   section.content {
     @include media($medium-screen) {
       @include span-columns(6);

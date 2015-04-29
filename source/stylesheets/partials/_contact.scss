@@ -1,4 +1,5 @@
 article.contact {
+  padding-top: em(24);
   aside {
     @include media($portrait-screen) {
       float: right;
