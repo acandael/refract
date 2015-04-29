@@ -2,12 +2,17 @@
   @include outer-container;
   article.event
   {
+    padding-top: em(24);
     @include media($medium-screen){
       padding-top: em(36);
     }
     aside {
-      float:right;
-      @include span-columns(4);
+      display: none;
+      @include media($medium-screen){
+        display: block;
+        float:right;
+        @include span-columns(4);
+      }
     }
 
     header {
