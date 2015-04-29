@@ -2,12 +2,17 @@ article.newsarticle {
   @include span-columns(12);
   padding-top: em(24);
   aside {
-    @include span-columns(4 of 12);
-    float: right;
+    @include media($large-screen){
+      @include span-columns(4 of 12);
+      float: right;
+    }
   }
   .content {
-    @include span-columns(8 of 12);
-    float: left;
+    margin-bottom: em(36);
+    @include media($large-screen){
+      @include span-columns(8 of 12);
+      float: left;
+    }
   }
   section.practical {
     margin: em(24) auto;
