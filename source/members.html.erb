@@ -4,6 +4,10 @@ description: "the core members of the refract research network are: Thijs Van de
 ---
 <div class="wrapper">
   <section class="members">
+  <ul class="accordion-tabs-minimal">
+    <li class="tab-header-and-content">
+      <a href="#" class="tab-link is-active">Members</a>
+      <div class="tab-content">
     <div class="member" data-mh="block">
       <a href="/thijs-van-de-graaf.html"><img src="images/thijs-van-de-graaf.jpg" alt="Thijs Van de Graaf" /></a>
       <h2><a href="/thijs-van-de-graaf.html">Thijs Van de Graaf</a></h2>
@@ -54,5 +58,49 @@ description: "the core members of the refract research network are: Thijs Van de
       <h2><a href="/benjamin-faude.html">Benjamin Faude</a></h2>
       <p>Global Governance Research Unit, WZB Berlin Social Science Center</p>
     </div>
+    </li>
+    <li class="tab-header-and-content">
+      <a href="#" class="tab-link">Associated Scholars</a>
+      <div class="tab-content">
+        <div class="member" data-mh="block">
+          <a href="/in_moller.html"><img src="images/ina-moller.jpg" alt="Ina M&ouml;ller" /></a>
+          <h2><a href="/ina_moller.html">Ina M&ouml;ller</a></h2>
+          <p>Environmental Politics Research Group, Lund University</p>
+        </div>
+        <div class="member" data-mh="block">
+          <a href="/lea_wisken.html"><img src="images/lea-wisken.jpg" alt="Lea Wisken" /></a>
+          <h2><a href="/lea_wisken.html">Lea Wisken</a></h2>
+          <p>Global Governance research unit, WZB Berlin Social Science Center</p>
+        </div>
+        <div class="member" data-mh="block">
+          <a href="/beatriz_martinez_romera.html"><img src="images/no-image-placeholder.jpg" alt="Beatriz Mart&iacute;nez Romera" /></a>
+
+          <h2><a href="/beatriz_martinez_romera.html">Beatriz Mart&iacute;nez Romera</a></h2>
+          <p>CEVIA, Faculty of Law, University of Copenhagen</p>
+        </div>
+      </div>
+    </li>
+  </ul>
   </section>
 </div>
+<script> 
+$(document).ready(function () {
+  $('.accordion-tabs-minimal').each(function(index) {
+    $(this).children('li').first().children('a').addClass('is-active').next().addClass('is-open').show();
+  });
+
+  $('.accordion-tabs-minimal').on('click', 'li > a', function(event) {
+    if (!$(this).hasClass('is-active')) {
+      event.preventDefault();
+      var accordionTabs = $(this).closest('.accordion-tabs-minimal');
+      accordionTabs.find('.is-open').removeClass('is-open').hide();
+
+      $(this).next().toggleClass('is-open').toggle();
+      accordionTabs.find('.is-active').removeClass('is-active');
+      $(this).addClass('is-active');
+    } else {
+      event.preventDefault();
+    }
+  });
+});
+</script>
