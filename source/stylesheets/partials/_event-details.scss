@@ -40,6 +40,10 @@
       p {
         margin-bottom: em(36);
       }
+
+      ul {
+        @extend %default-ul;
+      }
     }
   }
   
