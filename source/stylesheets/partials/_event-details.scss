@@ -22,6 +22,7 @@
           font-size: $base-font-size * 2.25; 
         }
       }
+
       @include media($medium-screen){
         margin-top: em(24);
       }
@@ -34,6 +35,10 @@
     section.content {
       @include media($medium-screen){
         @include span-columns(6);
+      }
+
+      p {
+        margin-bottom: em(36);
       }
     }
   }
