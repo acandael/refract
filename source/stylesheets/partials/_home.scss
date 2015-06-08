@@ -54,7 +54,7 @@ p.title {
 }
 
 p.more {
-  a { color: $blue; }
+  font-size: $base-font-size * .8;
   text-align: right;
   font-weight: 600;
 }

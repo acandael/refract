@@ -6,20 +6,26 @@
   $base-font-color: $dark-gray !default;
 
   padding: 0;
+  padding-top: em(36);
 
 
   li {
     list-style: none;
   }
 
+  li:last-of-type {
+    margin-right: 0;
+  }
+
   p {
     line-height: $base-line-height;
+    font-size: $base-font-size * .9;
   }
 
 
   $icon-bullet-size: 3.5em;
   i {
-    font-size: 2em;
+    font-size: $icon-bullet-size / 3.5;
     color: lighten($action-color, 10%);
   }
 
@@ -45,19 +51,22 @@
     margin-right: em(36);
   }
 
+
   .bullet-icon {
-    text-align: center;
     @include media($large-screen) {
       float: left;
       padding-left: 1.8em;
-      margin-right: 1em;
+      margin-right: .5em;
     }
-    padding-top: .3em;
-    i { font-size: $icon-bullet-size / 3.5; }
+    padding-top: 1.2em;
   }
 
   .bullet-content {
     margin-bottom: 2em;
+    background-color: lighten($light-gray, 10%);
+    border: 1px solid $light-gray;
+    padding: 1em 1.5em;
+    line-height: 1.6;
   }
 
 
