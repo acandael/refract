@@ -11,7 +11,7 @@
       @include media($medium-screen){
         display: block;
         float:right;
-        @include span-columns(4);
+        @include span-columns(3);
       }
     }
 
@@ -34,7 +34,7 @@
 
     section.content {
       @include media($medium-screen){
-        @include span-columns(6);
+        @include span-columns(9);
       }
 
       p {
@@ -43,6 +43,18 @@
 
       ul {
         @extend %default-ul;
+      }
+      .program {
+        padding: em(36) 0;
+      }
+
+      .session {
+        background: $yellow;
+        padding: em(16);
+      }
+
+      table {
+        margin: em(36) 0;
       }
     }
   }
