@@ -1,4 +1,4 @@
-section.output {
+section.publications {
   @include span-columns(8);
   padding-top: em(36);
 
@@ -9,5 +9,8 @@ section.output {
   li {
     margin-bottom: em(24);
    
+  }
+  a {
+    color: $blue;
   }
 }
