@@ -13,6 +13,9 @@ article.newsarticle {
       @include span-columns(6 of 12);
       float: left;
     }
+    a {
+      color: $blue;
+    }
   }
   section.practical {
     margin: em(24) auto;
