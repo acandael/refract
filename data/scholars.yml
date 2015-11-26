@@ -1,0 +1,54 @@
+- name: "Ina M&ouml;ller"
+  page: "ina_moller.html"
+  image: "ina-moller.jpg"
+  affiliation: "Environmental Politics Research Group, Lund University"
+
+- name: "Lea Wisken"
+  page: "lea_wisken.html"
+  image: "lea-wisken.jpg"
+  affiliation: "Global Governance research unit, WZB Berlin Social Science Center"
+
+- name: "Beatriz Mart&iacute;nez Romera"
+  page: "beatriz_martinez_romera.html"
+  image: "beatriz-martinez-romera.jpg"
+  affiliation: "CEVIA, Faculty of Law, University of Copenhagen"
+
+- name: "Peter Debaere"
+  page: "peter_debaere.html"
+  image: "peter-debaere.jpg"
+  affiliation: "Ghent Institute for International Studies, Ghent University"
+
+- name: "Johannes Urpelainen"
+  page: "johannes_urpelainen.html"
+  image: "johannes-urpelainen.jpg"
+  affiliation: "Department of Political Science, Columbia University"
+
+- name: "Jakob Skovgaard"
+  page: "jakob_skovgaard.html"
+  image: "jakob_skovgaard.jpg"
+  affiliation: "Department of Political Science, Lund University"
+
+- name: "Carlos Soria Rodriguez"
+  page: "carlos-soria-rodriguez.html"
+  image: "carlos-soria-rodriguez.jpg"
+  affiliation: ""
+
+- name: "Joshua Paine"
+  page: "joshua-paine.html"
+  image: "joshua-paine.jpg"
+  affiliation: "Institute for International Law and the Humanities, University of Melbourne"
+
+- name: "Vernon Rive"
+  page: "vernon-rive.html"
+  image: "vernon-rive.jpg"
+  affiliation: "University School of Law, AUT, New Zealand"
+
+- name: "Harri Kalimo"
+  page: "harri-kalimo.html"
+  image: "harri-kalimo.jpg"
+  affiliation: "Institute for European Studies, Vrije Universiteit Brussel"
+
+- name: "Laura Gomez-Mera"
+  page: "laura-gomez-mera.html"
+  image: "laura-gomez-mera.jpg"
+  affiliation: "Department of Political Science, University of Miami"

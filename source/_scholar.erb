@@ -1,0 +1,7 @@
+<div class="member" data-mh="block">
+<% link_to member["page"] do %>
+  <%= image_tag member["image"] %>
+<% end %>
+<h2><%= link_to member["name"], member["page"] %></h2>
+<p><%= member["affiliation"] %></p>
+</div>

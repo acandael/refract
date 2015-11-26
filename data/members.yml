@@ -1,0 +1,49 @@
+- name: "Thijs Van de Graaf"
+  page: "thijs-van-de-graaf.html"
+  image: "thijs-van-de-graaf.jpg"
+  affiliation: "Ghent Institute for International Studies, Ghent University"
+
+- name: "Sebastian Oberth&uuml"
+  page: "sebastian-oberthur.html"
+  image: "sebastian-oberthur.jpg"
+  affiliation: "Institute for European Studies, Vrije Universiteit Brussel"
+
+- name: "Dirk De Bi&egrave;vre"
+  page: "dirk-de-bievre.html"
+  image: "dirk-de-bievre.jpg"
+  affiliation: "Antwerp Centre for Institutions and Multilevel Politics, Antwerp University"
+
+- name: "Amandine Orsini"
+  page: "amandine-orsini.html"
+  image: "amandine-orsini.jpg"
+  affiliation: "Center for Research in Political Science, Université Saint-Louis – Bruxelles"
+
+- name: "Jean-Fr&eacute;deric Morin"
+  page: "jean-frederic-morin.html"
+  image: "jean-frederic-morin.jpg"
+  affiliation: "Canada Research Chair in IPE, Universit&eacute; Laval"
+
+- name: "Fariborz Zelli"
+  page: "fariborz-zelli.html"
+  image: "fariborz-zelli.jpg"
+  affiliation: "Environmental Politics Research Group, Lund University"
+
+- name: "Thomas Gehring"
+  page: "thomas-gehring.html"
+  image: "thomas-gehring.jpg"
+  affiliation: "Chair of International Relations, University of Bamberg"
+
+- name: "Margaret Young"
+  page: "margaret-young.html"
+  image: "margaret-young.jpg"
+  affiliation: "Institute for International Law and the Humanities, Melbourne University"
+
+- name: "Harro van Asselt"
+  page: "harro-van-asselt.html"
+  image: "harro-van-asselt.jpg"
+  affiliation: "Stockholm Environment Institute, Oxford"
+
+- name: "Benjamin Faude"
+  page: "benjamin-faude.html"
+  image: "benjamin-faude.jpg"
+  affiliation: "Global Governance Research Unit, WZB Berlin Social Science Center"
