@@ -25,6 +25,13 @@ section.home {
     }
   }
 
+  ul {
+    @extend %default-ul;
+    li {
+      margin-bottom: em(16);
+    }
+  }
+
   aside {
     display: none;
     @include media($medium-screen) {
