@@ -7,6 +7,12 @@ article.newsarticle {
       float: right;
     }
   }
+  ul {
+    @extend %default-ul;
+    li {
+      margin-bottom: 1.5em;
+    }
+  }
   .content {
     margin-bottom: em(36);
     @include media($large-screen){
